@@ -18,7 +18,4 @@ public class Item {
     private String itemName;
     private BigDecimal price;
 
-    @ManyToOne
-    @JoinColumn(name = "invoice_id")
-    private Invoice invoice;
 }
